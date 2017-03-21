@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image:url('../img/fons.jpg');
+	background-repeat: repeat;
+	background-position:top;
+	margin:0;
+	padding:0;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+#cap {
+	height:589px;
+	background-color:  ;
+}
+
+#cap h1 {
+	position: absolute;
+	display:block;
+	margin:10px auto;
+	text-align: center;
+	z-index: 1000;
+	font-size: 4em;
+	font-weight: 900;
+	font-style: bold;
+	line-height:2em;
+}
+
+#cap h1 span {
+	color:grey;
+}
+
+#cos {
+	background-color: ;
+}
+
+#cos a .miniatura {
+	position:relative;
+	height: 240px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+}
+
+#cos a .miniatura:hover {
+	opacity: 1;
+}
+
+#cos a #pulp {
+	background-image: url("../img/small/small_pulp.jpg");
+}
+
+#cos a #taxi {
+	background-image: url("../img/small/small_taxi.jpg");
+}
+
+#cos a #bond {
+	background-image: url("../img/small/small_bond.jpg");
+}
+
+#cos a #ghost {
+	background-image: url("../img/small/small_ghost.jpg");
+}
+
+#cos a #bean {
+	background-image: url("../img/small/small_bean.jpg");
+}
+
+#cos a #back {
+	background-image: url("../img/small/small_back.jpg");
+}
+
+#cos a #rider {
+	background-image: url("../img/small/small_rider.jpg");
+}
+
+#cos a #team {
+	background-image: url("../img/small/small_team.jpg");
+}
+
+#cos a #break {
+	background-image: url("../img/small/small_break.jpg");
+}
+#cos a .miniatura .titol {
+	
+	height: 20px;
+	padding:10px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: white;
+	color: grey;
+
+}
+
+#peu {
+	height:220px;
+	background-color: ;
+	background-image: url("../img/logo_carsandfilms.png");
+	background-repeat: no-repeat;
+	background-position: 380px;
+}
+
